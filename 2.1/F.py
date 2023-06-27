@@ -27,6 +27,3 @@ if __name__ == "__main__":
     w = int(input())
     m = int(input())
     main(name=n, price=p, weight=w, money=m)
-
-
-    

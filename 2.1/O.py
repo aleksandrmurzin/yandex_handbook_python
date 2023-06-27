@@ -1,7 +1,7 @@
 def main(hour, minute, order_minute):
     """
     Entry point of the program.
-    
+
     Args:
         curr_hour (int): The current hour.
         curr_minute (int): The current minute.

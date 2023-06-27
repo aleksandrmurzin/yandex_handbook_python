@@ -1,7 +1,7 @@
 def main(string):
     """
     Rearranges the characters in the input string and prints the result.
-    
+
     Args:
         string (str): The input string to be rearranged.
     """

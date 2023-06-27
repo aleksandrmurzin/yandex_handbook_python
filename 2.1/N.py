@@ -1,7 +1,7 @@
 def main(red, blue):
     """
     Calculates the sum of the given red and blue values, incremented by 1.
-    
+
     Args:
         red (int): The value of red.
         blue (int): The value of blue.

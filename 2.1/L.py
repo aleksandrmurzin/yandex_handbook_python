@@ -1,7 +1,7 @@
 def main(first, second):
     """
     Entry point of the program.
-    
+
     Args:
         first (str): The first input.
         second (str): The second input.
