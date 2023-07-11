@@ -12,11 +12,14 @@ def main(a, b, c):
     double_a = 2 * a
     disc = b ** 2 - double_a * 2 * c
 
-    if all([a == 0, b == 0]):
-        if c == 0:
-            print("Infinite solutions")
+    if a == 0:
+        if b == 0.:
+            if c == 0.:
+                print("Infinite solutions")
+            else:
+                print("No solution")
         else:
-            print("No solution")
+            print(f"{(-c / b):.2f}")
     elif disc == 0:
         x1 = -b / 2 / a
         print(f"{x1:.2f}")
