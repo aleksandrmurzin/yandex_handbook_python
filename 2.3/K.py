@@ -1,9 +1,13 @@
-def main():
+def main(num):
     """
     """
-    # Write your code
+    sum = 0
+    for i in number:
+        sum += int(i)
+    print(sum)
     return None
 
 
 if __name__ == "__main__":
-    main()
+    number = input()
+    main(num=number)
